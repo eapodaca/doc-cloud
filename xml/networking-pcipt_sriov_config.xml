@@ -497,8 +497,8 @@ drwxr-xr-x 3 root root 0 Feb 19 16:09 /sys/kernel/iommu_groups/20/devices/0000:0
   <para>
    <emphasis role="bold">nic_device_data.yml:</emphasis> This is the new file
    added with this release to support SRIOV and PCIPT configuration details. It
-   contains information about the specifics of a nic, and is found here:
-   <literal>~/openstack/ardana/services/osconfig/nic_device_data.yml</literal>.
+   contains information about the specifics of a nic, and is found at
+   <literal>/usr/share/ardana/input-model/2.0/services/osconfig/nic_device_data.yml</literal>.
    The fields in this file are as follows.
   </para>
   <orderedlist>
